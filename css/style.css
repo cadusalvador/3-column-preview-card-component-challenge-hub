@@ -1,0 +1,152 @@
+body {
+  background-color: #f2f2f2;
+  height: 100%;
+}
+
+.principal {
+  display: flex;
+}
+.principal .sedan {
+  background-color: #e38826;
+  padding: 50px;
+}
+.principal .sedan__titulo {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+.principal .sedan__conteudo {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.principal .sedan__button {
+  background-color: #f2f2f2;
+  color: #e38826;
+  border: none;
+  border-radius: 50px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  padding: 15px 50px;
+}
+.principal .sedan__button:hover {
+  background-color: #e38826;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+  transition: ease-in 0.2s all;
+}
+.principal .suv {
+  background-color: #006970;
+  padding: 50px;
+}
+.principal .suv__titulo {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+.principal .suv__conteudo {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.principal .suv__button {
+  background-color: #f2f2f2;
+  color: #006970;
+  border: none;
+  border-radius: 50px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  padding: 15px 50px;
+}
+.principal .suv__button:hover {
+  background-color: #006970;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+  transition: ease-in 0.2s all;
+  transform: none;
+}
+.principal .luxury {
+  background-color: #004241;
+  padding: 50px;
+}
+.principal .luxury__titulo {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+.principal .luxury__conteudo {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.principal .luxury__button {
+  background-color: #f2f2f2;
+  color: #004241;
+  border: none;
+  border-radius: 50px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  padding: 15px 50px;
+}
+.principal .luxury__button:hover {
+  background-color: #004241;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+  transition: ease-in 0.2s all;
+  transform: none;
+}
+@media screen and (max-width: 320px), screen and (max-width: 375px), screen and (max-width: 425px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (width: 768px) {
+  .principal .luxury__conteudo {
+    margin-bottom: 100px;
+  }
+  .principal .sedan__button, .principal .suv__button, .principal .luxury__button {
+    padding: 15px 30px;
+  }
+}
+@media screen and (width: 1024px) {
+  .principal .luxury__conteudo {
+    margin-bottom: 115px;
+  }
+}
+
+.rodape {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.rodape .conteudo {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Lexend Deca";
+}
+.rodape .conteudo__link {
+  text-decoration: none;
+  color: #3e52a3;
+}
+.rodape .conteudo__link:hover {
+  color: #e38826;
+}
+@media screen and (max-width: 320px), screen and (max-width: 375px), screen and (max-width: 425px) {
+  .rodape {
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

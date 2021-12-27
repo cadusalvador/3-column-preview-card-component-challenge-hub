@@ -1,0 +1,29 @@
+// Cores Primárias
+
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$plus-dark-cyan: hsl(179, 100%, 13%);
+$dark-blue: hsl(228, 45%, 44%);
+
+// Cores Neutras
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$plus-light-gray: hsl(0, 0%, 95%);
+
+$font-1: 'Lexend Deca';
+$font-2: 'Big Shoulders Display';
+$font-size: 15px;
+
+$breakpoint-small: 320px;
+$breakpoint-medium: 375px;
+$breakpoint-large: 425px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1024px;
+
+body {
+    background-color: $plus-light-gray;
+    height: 100%;
+}
+
+
+@import 'main', 'footer';
+

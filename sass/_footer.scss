@@ -1,0 +1,28 @@
+.rodape {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+
+    .conteudo {
+        font-size: $font-size;
+        text-align: center;
+        font-family: $font-1;
+
+        &__link{ 
+            text-decoration: none;
+            color: $dark-blue;
+
+            &:hover {
+                color: $bright-orange;
+            }
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-small), screen and
+    (max-width: $breakpoint-medium), screen and (max-width: 
+    $breakpoint-large) {
+        position: relative;
+        bottom: 1px;
+        width: 100%;        
+    }
+}
