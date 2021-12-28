@@ -5,24 +5,33 @@ body {
 
 .principal {
   display: flex;
+  margin: 100px auto;
+  justify-content: center;
 }
-.principal .sedan {
+.principal .box-container {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.principal .box-container .sedan {
   background-color: #e38826;
   padding: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-.principal .sedan__titulo {
+.principal .box-container .sedan__titulo {
   color: #f2f2f2;
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
 }
-.principal .sedan__conteudo {
+.principal .box-container .sedan__conteudo {
   color: rgba(255, 255, 255, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 100px;
 }
-.principal .sedan__button {
+.principal .box-container .sedan__button {
   background-color: #f2f2f2;
   color: #e38826;
   border: none;
@@ -32,29 +41,29 @@ body {
   font-size: 15px;
   padding: 15px 50px;
 }
-.principal .sedan__button:hover {
+.principal .box-container .sedan__button:hover {
   background-color: #e38826;
   border: 1px solid #f2f2f2;
   color: #f2f2f2;
   transition: ease-in 0.2s all;
 }
-.principal .suv {
+.principal .box-container .suv {
   background-color: #006970;
   padding: 50px;
 }
-.principal .suv__titulo {
+.principal .box-container .suv__titulo {
   color: #f2f2f2;
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
 }
-.principal .suv__conteudo {
+.principal .box-container .suv__conteudo {
   color: rgba(255, 255, 255, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 100px;
 }
-.principal .suv__button {
+.principal .box-container .suv__button {
   background-color: #f2f2f2;
   color: #006970;
   border: none;
@@ -64,30 +73,32 @@ body {
   font-size: 15px;
   padding: 15px 50px;
 }
-.principal .suv__button:hover {
+.principal .box-container .suv__button:hover {
   background-color: #006970;
   border: 2px solid #f2f2f2;
   color: #f2f2f2;
   transition: ease-in 0.2s all;
   transform: none;
 }
-.principal .luxury {
+.principal .box-container .luxury {
   background-color: #004241;
   padding: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-.principal .luxury__titulo {
+.principal .box-container .luxury__titulo {
   color: #f2f2f2;
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
 }
-.principal .luxury__conteudo {
+.principal .box-container .luxury__conteudo {
   color: rgba(255, 255, 255, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 100px;
 }
-.principal .luxury__button {
+.principal .box-container .luxury__button {
   background-color: #f2f2f2;
   color: #004241;
   border: none;
@@ -97,7 +108,7 @@ body {
   font-size: 15px;
   padding: 15px 50px;
 }
-.principal .luxury__button:hover {
+.principal .box-container .luxury__button:hover {
   background-color: #004241;
   border: 2px solid #f2f2f2;
   color: #f2f2f2;

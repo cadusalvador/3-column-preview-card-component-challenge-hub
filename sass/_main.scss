@@ -1,115 +1,127 @@
 .principal {
     display: flex;
+    margin: 100px auto;
+    justify-content: center;
 
-    .sedan {
-        background-color: $bright-orange;
-        padding: 50px;
+    .box-container {
+        max-width: 900px;
+        display: flex;
+        justify-content: space-between;
 
-        &__titulo {
-            color: $plus-light-gray;
-            font-family: $font-2, sans-serif;
-            font-weight: 700;
-        }
-
-        &__conteudo {
-            color: $transparent-white;
-            font-family: $font-1, sans-serif;
-            font-weight: 400;
-            font-size: $font-size;
-            margin-bottom: 100px;
-        }
-
-        &__button {
-            background-color: $plus-light-gray;
-            color: $bright-orange;
-            border: none;
-            border-radius: 50px;
-            font-family: $font-1;
-            font-weight: 400;
-            font-size: $font-size;
-            padding: 15px 50px;
-            
-            &:hover {
-                background-color: $bright-orange;
-                border: 1px solid $plus-light-gray;
+        .sedan {
+            background-color: $bright-orange;
+            padding: 50px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+    
+            &__titulo {
                 color: $plus-light-gray;
-                transition: ease-in .2s all;
+                font-family: $font-2, sans-serif;
+                font-weight: 700;
+            }
+    
+            &__conteudo {
+                color: $transparent-white;
+                font-family: $font-1, sans-serif;
+                font-weight: 400;
+                font-size: $font-size;
+                margin-bottom: 100px;
+            }
+    
+            &__button {
+                background-color: $plus-light-gray;
+                color: $bright-orange;
+                border: none;
+                border-radius: 50px;
+                font-family: $font-1;
+                font-weight: 400;
+                font-size: $font-size;
+                padding: 15px 50px;
+                
+                &:hover {
+                    background-color: $bright-orange;
+                    border: 1px solid $plus-light-gray;
+                    color: $plus-light-gray;
+                    transition: ease-in .2s all;
+                }
             }
         }
-    }
-
-    .suv {
-        background-color: $dark-cyan;
-        padding: 50px;
-
-        &__titulo {
-            color: $plus-light-gray;
-            font-family: $font-2, sans-serif;
-            font-weight: 700;
-        }
-
-        &__conteudo {
-            color: $transparent-white;
-            font-family: $font-1, sans-serif;
-            font-weight: 400;
-            font-size: $font-size;
-            margin-bottom: 100px;
-        }
-
-        &__button {
-            background-color: $plus-light-gray;
-            color: $dark-cyan;
-            border: none;
-            border-radius: 50px;
-            font-family: $font-1;
-            font-weight: 400;
-            font-size: $font-size;
-            padding: 15px 50px;
-            
-            &:hover {
-                background-color: $dark-cyan;
-                border: 2px solid $plus-light-gray;
+    
+        .suv {
+            background-color: $dark-cyan;
+            padding: 50px;
+    
+            &__titulo {
                 color: $plus-light-gray;
-                transition: ease-in .2s all;
-                transform: none;
+                font-family: $font-2, sans-serif;
+                font-weight: 700;
+            }
+    
+            &__conteudo {
+                color: $transparent-white;
+                font-family: $font-1, sans-serif;
+                font-weight: 400;
+                font-size: $font-size;
+                margin-bottom: 100px;
+            }
+    
+            &__button {
+                background-color: $plus-light-gray;
+                color: $dark-cyan;
+                border: none;
+                border-radius: 50px;
+                font-family: $font-1;
+                font-weight: 400;
+                font-size: $font-size;
+                padding: 15px 50px;
+                
+                &:hover {
+                    background-color: $dark-cyan;
+                    border: 2px solid $plus-light-gray;
+                    color: $plus-light-gray;
+                    transition: ease-in .2s all;
+                    transform: none;
+                }
             }
         }
-    }
-
-    .luxury {
-        background-color: $plus-dark-cyan;
-        padding: 50px;
-
-        &__titulo {
-            color: $plus-light-gray;
-            font-family: $font-2, sans-serif;
-            font-weight: 700;
-        }
-
-        &__conteudo {
-            color: $transparent-white;
-            font-family: $font-1, sans-serif;
-            font-weight: 400;
-            font-size: $font-size;
-            margin-bottom: 100px;
-        }
-
-        &__button {
-            background-color: $plus-light-gray;
-            color: $plus-dark-cyan;
-            border: none;
-            border-radius: 50px;
-            font-family: $font-1;
-            font-weight: 400;
-            font-size: $font-size;
-            padding: 15px 50px;
-
-            &:hover {
-                background-color: $plus-dark-cyan;
-                border: 2px solid $plus-light-gray;
+    
+        .luxury {
+            background-color: $plus-dark-cyan;
+            padding: 50px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+    
+            &__titulo {
                 color: $plus-light-gray;
-                transition: ease-in .2s all;
-                transform: none;
+                font-family: $font-2, sans-serif;
+                font-weight: 700;
+            }
+    
+            &__conteudo {
+                color: $transparent-white;
+                font-family: $font-1, sans-serif;
+                font-weight: 400;
+                font-size: $font-size;
+                margin-bottom: 100px;
+            }
+    
+            &__button {
+                background-color: $plus-light-gray;
+                color: $plus-dark-cyan;
+                border: none;
+                border-radius: 50px;
+                font-family: $font-1;
+                font-weight: 400;
+                font-size: $font-size;
+                padding: 15px 50px;
+    
+                &:hover {
+                    background-color: $plus-dark-cyan;
+                    border: 2px solid $plus-light-gray;
+                    color: $plus-light-gray;
+                    transition: ease-in .2s all;
+                    transform: none;
+                }
             }
         }
     }
